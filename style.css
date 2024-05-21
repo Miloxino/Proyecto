@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+  
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color: #121212;
+    justify-content: space-around;
+    display: flex;
+
+  }
+
+  .footer {
+    width: 100%;
+    height: 90px;
+}
+
+.logo {
+    display: block;
+    margin: auto ;
+    width: 100px;
+    height: 100px;
+
+  }
+
+.clock-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 95px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    
+  }
+
+.Botones{
+    height: 50px;
+    width: 60px;
+    background-color: #242424;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    border: none;
+    padding: 0;
+    margin: auto;
+    border-radius: 8px;
+  }
+  
+  .Botones:active {
+    transform: scale(0.9);
+
+  }
+
+  #clock {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 34px;
+    background-color: #121212;
+  }
+
+  @keyframes color-change {
+    0% { color: red; }
+    2% { color: orange; }
+    4% { color: yellow; }
+    6% { color: green; }
+    8% { color: blue; }
+    10% { color: indigo; }
+    12% { color: violet; }
+    14% { color: pink; }
+    16% { color: purple; }
+    18% { color: silver; }
+    20% { color: gold; }
+    22% { color: brown; }
+    24% { color: maroon; }
+    26% { color: olive; }
+    28% { color: lime; }
+    30% { color: aqua; }
+    32% { color: teal; }
+    34% { color: navy; }
+    36% { color: blueviolet; }
+    38% { color: darkorchid; }
+    40% { color: magenta; }
+    42% { color: cyan; }
+    44% { color: turquoise; }
+    46% { color: lavender; }
+    48% { color: peach; }
+    50% { color: mint; }
+    52% { color: coral; }
+    54% { color: salmon; }
+    56% { color: khaki; }
+    58% { color: plum; }
+    60% { color: burgundy; }
+    62% { color: forestgreen; }
+    64% { color: sienna; }
+    66% { color: sandybrown; }
+    68% { color: chocolate; }
+    70% { color: periwinkle; }
+    72% { color: cadetblue; }
+    74% { color: lightblue; }
+    76% { color: powderblue; }
+    78% { color: skyblue; }
+    80% { color: steelblue; }
+    82% { color: royalblue; }
+    84% { color: midnightblue; }
+    86% { color: darkblue; }
+    88% { color: navyblue; }
+    90% { color: bluegray; }
+    92% { color: grayblue; }
+    94% { color: bluishgray; }
+    96% { color: grayishblue; }
+    98% { color: bluevioletgray; }
+    100% { color: magentagray; }
+  }
+  
+  .color-change {
+    animation: color-change 140s infinite;
+  }
+
+  
